@@ -387,6 +387,8 @@ footer a {
   }
 }
 
+
+
 main img {
   float: left;
 }
@@ -399,6 +401,7 @@ main h1 img {
 header {
   position: sticky;
   top: 0;
+  z-index: 2;
 }
 
 main article section h2 {
@@ -406,3 +409,25 @@ main article section h2 {
   top: -20px;
   left: 30px;
 }
+
+footer button {
+  position: fixed;
+  bottom: 10px;
+  right: 0;
+  background-color: rgba(230, 230, 230, 0.336);
+  border: 2px solid white;
+}
+
+header button {
+  position: fixed;
+  top: 20px;
+  right: 0;
+  background-color: rgba(230, 230, 230, 0.336);
+  border: 2px solid white;
+}
+
+header #second {
+  top: 100px;
+}
+
+
